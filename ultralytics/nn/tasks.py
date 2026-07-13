@@ -1890,6 +1890,7 @@ def parse_model(d, ch, verbose=True):
             SPP,
             SPPF,
             C2fPSA,
+            C2fCA,
             C2PSA,
             DWConv,
             Focus,
