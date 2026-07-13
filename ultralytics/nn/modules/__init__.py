@@ -16,7 +16,7 @@ Examples:
     >>> torch.onnx.export(m, x, f)
     >>> subprocess.run(f"onnxslim {f} {f} && open {f}", shell=True, check=True)  # pip install onnxslim
 """
-
+from .block import C2fCA
 from .block import (
     C1,
     C2,
